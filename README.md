@@ -8,10 +8,10 @@ This mini project is an online calculator supporting basic arithmetic operation,
 
 The following diagram shows the structure of the app:
 
--app_frontend_react_native
------|-App.js  
-  
------|-Components. 
+-app_frontend_react_native   
+-----|-App.js   
+   
+-----|-Components     
 ----------|CalculatorApi.js  
 ----------|---Row.js  
 ----------|---CalculatorPanel.js  
@@ -21,7 +21,7 @@ The following diagram shows the structure of the app:
    
 ------|-node_modules  
    
-------|-package.json  
+------|-package.json    
    
    
    
