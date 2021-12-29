@@ -9,50 +9,38 @@ This mini project is an online calculator supporting basic arithmetic operation,
 The following diagram shows the structure of the app:
 
 -app_frontend_react_native
+-----|-App.js
 
-&ensp		|-App.js
+-----|-Components
+----------|CalculatorApi.js
+----------|---Row.js
+----------|---CalculatorPanel.js
+-------------|---CalculatorButton.js
 
-​		|-Components
+------|-assets
 
-​				|--CalculatorApi.js
+------|-node_modules
 
-​				|---Row.js
-
-​				|---CalculatorPanel.js
-
-​						|----CalculatorButton.js
+------|-package.json
 
 
-
-​		|-assets
-
-​		|-node_modules
-
-​		|-package.json
 
 -backend_oatpp-async
 
-​		|-src
+---|-src
+--------|--App.cpp
+--------|--AppComponent.hpp
+--------|--controller
+--------------|---MyController.cpp
+--------------|---MyController.hpp
+--------|--service
+------------|---Calculator.hpp
 
-​				|--App.cpp
+---|-build
 
-​				|--AppComponent.hpp
+---|-utility
 
-​				|--controller
-
-​						|---MyController.cpp
-
-​						|---MyController.hpp
-
-​				|--service
-
-​						|---Calculator.hpp
-
-​		|-build
-
-​		|-utility
-
-​		|-test
+---|-test
 
 ## Front-end Framework
 
