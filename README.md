@@ -10,7 +10,7 @@ The following diagram shows the structure of the app:
 
 -app_frontend_react_native
 
-​		|-App.js
+&ensp		|-App.js
 
 ​		|-Components
 
