@@ -9,45 +9,45 @@ This mini project is an online calculator supporting basic arithmetic operation,
 The following diagram shows the structure of the app:
 
 -app_frontend_react_native
------|-App.js
-
------|-Components
-----------|CalculatorApi.js
-----------|---Row.js
-----------|---CalculatorPanel.js
--------------|---CalculatorButton.js
-
-------|-assets
-
-------|-node_modules
-
-------|-package.json
-
-
-
--backend_oatpp-async
-
----|-src
---------|--App.cpp
---------|--AppComponent.hpp
---------|--controller
---------------|---MyController.cpp
---------------|---MyController.hpp
---------|--service
-------------|---Calculator.hpp
-
----|-build
-
----|-utility
-
----|-test
-
+-----|-App.js  
+  
+-----|-Components. 
+----------|CalculatorApi.js  
+----------|---Row.js  
+----------|---CalculatorPanel.js  
+-------------|---CalculatorButton.js  
+   
+------|-assets  
+   
+------|-node_modules  
+   
+------|-package.json  
+   
+   
+   
+-backend_oatpp-async   
+   
+---|-src  
+--------|--App.cpp  
+--------|--AppComponent.hpp  
+--------|--controller   
+--------------|---MyController.cpp    
+--------------|---MyController.hpp    
+--------|--service    
+------------|---Calculator.hpp      
+     
+---|-build    
+     
+---|-utility    
+     
+---|-test    
+   
 ## Front-end Framework
-
+   
 The small project involves a mobile calculator developed with React Native(expo) and a web calculator developed with React.js. Both web and mobile interface communicate with the same Backend API for the calculation.
-
+   
 The way to run the mobile API is as follows:
-
+   
 ```sh
 
 yes|rm -r app_frontend_react_native/build 
@@ -58,7 +58,7 @@ npm start
 
 ```
 
-
+   
 
 Reference:
 
