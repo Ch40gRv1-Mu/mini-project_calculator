@@ -1,0 +1,6 @@
+/Users/mcr/Documents/GitHub/oatpp-starter-async/build/CMakeFiles/rebuild_cache.dir
+/Users/mcr/Documents/GitHub/oatpp-starter-async/build/CMakeFiles/test.dir
+/Users/mcr/Documents/GitHub/oatpp-starter-async/build/CMakeFiles/my-project-test.dir
+/Users/mcr/Documents/GitHub/oatpp-starter-async/build/CMakeFiles/my-project-exe.dir
+/Users/mcr/Documents/GitHub/oatpp-starter-async/build/CMakeFiles/edit_cache.dir
+/Users/mcr/Documents/GitHub/oatpp-starter-async/build/CMakeFiles/my-project-lib.dir
